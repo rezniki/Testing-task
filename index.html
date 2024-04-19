@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+    <title>Testing task</title>
+</head>
+<body>
+    <main class="main__container">
+        <section class="products__container">
+            <div class="product__container">
+                <h1 class="product__title">Who is this product for?</h1>
+                <p class="product__text">
+                    Lingvanex Bot can simply solve a language barrier problem in your team, community, 
+                    with your international clients and outsourcing partners. It automatically identifies the languages 
+                    in a conversation and translates all messages of your team members into a chosen language.
+                </p>
+            </div>
+
+            <div class="product__buttons">
+                <button class="product__button" onclick="showContent('travelers')">For travelers</button>
+                <button class="product__button" onclick="showContent('organization')">For travel organization</button>
+                <button class="product__button" onclick="showContent('employees')">For employees</button>
+            </div>
+            
+            <div class="product__cards__content" id="content">
+                <div class="product__cards">
+                    <div class="product__card travelers">
+                        <h1 class="product__card__title">For travelers</h1>
+                        <ul class="product__lists">
+                            <li class="product__list">Highlight one word in the text on the page.</li>
+                            <li class="product__list">
+                                Word meaning, pronunciation, synonyms, 
+                                hypernyms, hyponyms . and more.
+                            </li>
+                            <li class="product__list">Highlight one word in the text on the page.</li>
+                            <li class="product__list">
+                                Word meaning, pronunciation, synonyms,        
+                                hypernyms, hyponyms . and more.
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="product__photo" src="img/product__photo__1.png" alt="Photo">
+                </div>
+        
+                <div class="product__cards">
+                    <div class="product__card organization">
+                        <h1 class="product__card__title">For travel organization</h1>
+                        <ul class="product__lists">
+                            <li class="product__list">Highlight one word in the text on the page.</li>
+                            <li class="product__list">
+                                Word meaning, pronunciation, synonyms, 
+                                hypernyms, hyponyms . and more.
+                            </li>
+                            <li class="product__list">Highlight one word in the text on the page.</li>
+                            <li class="product__list">
+                                Word meaning, pronunciation, synonyms,        
+                                hypernyms, hyponyms . and more.
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="product__photo" src="img/product__photo__2.png" alt="Photo">
+                </div>
+
+                <div class="product__cards">
+                    <div class="product__card employees">
+                        <h1 class="product__card__title">For employees</h1>
+                        <ul class="product__lists">
+                            <li class="product__list">Highlight one word in the text on the page.</li>
+                            <li class="product__list">
+                                Word meaning, pronunciation, synonyms, 
+                                hypernyms, hyponyms . and more.
+                            </li>
+                            <li class="product__list">Highlight one word in the text on the page.</li>
+                            <li class="product__list">
+                                Word meaning, pronunciation, synonyms,        
+                                hypernyms, hyponyms . and more.
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="product__photo" src="img/product__photo__3.png" alt="Photo">
+                </div>
+            </div>
+
+            <div class="product__content__trial">
+                <button class="product__button__trial">Request a free trial</button>
+            </div>
+        </section>
+
+        <section class="product__lingvanex__help">
+            <h1 class="product__lingvanex__title">How can Lingvanex help you?</h1>
+            <div class="product__icons">
+                <div class="product__icon">
+                    <img class="product__icon__image" src="img/triangle.png" alt="Triangle">
+                    <h3 class="product__icon__title">Book  trips & tickets easily</h3>
+                    <p class="product__icon__text">
+                        We provide cloud, sdk 
+                        and on-premise translation solutions. 
+                        All your private data stays with you.
+                    </p>
+                </div>
+                <div class="product__icon">
+                    <img class="product__icon__image" src="img/square.png" alt="Square">
+                    <h3 class="product__icon__title">Translate in real time</h3>
+                    <p class="product__icon__text">
+                        The price starts from 
+                        $100 / month and depends 
+                        on number of languages.
+                    </p>
+                </div>
+                <div class="product__icon">
+                    <img class="product__icon__image" src="img/circle.png" alt="Circle">
+                    <h3 class="product__icon__title">Translate any hotel services</h3>
+                    <p class="product__icon__text">
+                        Every language model size 
+                        is 70mb.SDK uses 200mb 
+                        of RAM memory.
+                    </p>
+                </div>
+                <div class="product__icon">
+                    <img class="product__icon__image" src="img/square.png" alt="Square">
+                    <h3 class="product__icon__title">Сommunicate easily</h3>
+                    <p class="product__icon__text">
+                        We provide cloud, sdk 
+                        and on-premise translation solutions. 
+                        All your private data stays with you.
+                    </p>
+                </div>
+                <div class="product__icon">
+                    <img class="product__icon__image" src="img/triangle.png" alt="Triangle">
+                    <h3 class="product__icon__title">Knowledge bases for employees</h3>
+                    <p class="product__icon__text">
+                        The price starts from 
+                        $100 / month and depends 
+                        on number of languages.
+                    </p>
+                </div>
+                <div class="product__icon">
+                    <img class="product__icon__image" src="img/rhombus.png" alt="Rhombus">
+                    <h3 class="product__icon__title">Website  & promo translation</h3>
+                    <p class="product__icon__text">
+                        SDK has trial project and manual.
+                        Dependency managers are supported.
+                    </p>
+                </div>
+            </div>
+
+            <div class="product__content__trial">
+                <button class="product__button__trial">Request a free trial</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
